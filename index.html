@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; URL='https://axeron.vercel.app'">
+    <title>True Code</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #1b1b1b;
+        }
+        .container {
+            text-align: center;
+            background-color: rgb(34, 34, 34);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgb(0, 60, 255);
+            border: 1px solid #252525;
+        }
+        h1 {
+            color: #0077ff;
+        }
+        .redirect-button {
+            background-color: #0077ff;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .redirect-button:hover {
+            background-color: #0044ff;
+        }
+        .message {
+            margin-bottom: 20px;
+            color: #0044ff;
+        }
+    </style>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            setTimeout(function() {
+                window.location.href = "https://axeron.vercel.app/";
+            }, 5000);
+        }
+
+        function manualRedirect() {
+            window.location.href = "https://axeron.vercel.app/";
+        }
+    </script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>You are being redirected to AXERON</h1>
+        <p class="message">Please click the button below if you were not redirected automatically.</p>
+        <button class="redirect-button" onclick="manualRedirect()">Go To AXERON</button>
+    </div>
+</body>
+</html>
